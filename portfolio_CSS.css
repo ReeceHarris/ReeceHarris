@@ -6,7 +6,7 @@ body {
 /* Navbar */
 .Navbar {
 	overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-	background-color: black; /* This colors the navbar black */
+	background-color: #104C91; /* This colors the navbar black */
 	position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	top: 0; /* This ensures no space is displayed above the navbar */
 	width: 100%; /* This makes the navbar span the entire width of the page */
@@ -27,14 +27,14 @@ body {
 
 /* Navbar hover effect */
 .Navbar a:hover {
-	background-color: #F4F4F4; /*  This defines the background color that will display when you hover over the text on the navbar */
-	color: black; /* This defines the font color that will display when you hover over the text on the navbar */
+	background-color: #EFC9AF; /*  This defines the background color that will display when you hover over the text on the navbar */
+	color: #104C91; /* This defines the font color that will display when you hover over the text on the navbar */
 	font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
 .Navbar a.active { /* The active selector styles a link */
-  background-color: darkgray;  /* This specifies the background color behind the Home button on the navbar */ 
+  background-color: #104C91;  /* This specifies the background color behind the Home button on the navbar */ 
 }
 
 /* Video */
@@ -75,7 +75,7 @@ body {
 	padding: 10px;
 	padding-top: 1.9%;
 	height: 400px;
-	background-color: #4d4d4d;
+	background-color: #EFC9AF;
 }
 
 .Column_3 {
@@ -84,7 +84,7 @@ body {
 	padding: 10px;
 	padding-top: 3.5%;
 	height: 450px;
-	background-color: #4d4d4d;
+	background-color: #EFC9AF;
 }
 
 .Row:after { /* This inserts something after the content of selected elements */
@@ -148,7 +148,7 @@ img {
 input[type=text] { /* This covers the input sections of the contact form */
 	width: 100%;
 	padding: 12px;
-    border: 1px solid #ccc; /* We are setting a solid border and its colors */
+    border: 1px solid #104C91; /* We are setting a solid border and its colors */
     border-radius: 4px; 
     box-sizing: border-box;
     margin-top: 6px;
@@ -159,7 +159,7 @@ input[type=text] { /* This covers the input sections of the contact form */
 
 /* Submit button */
 input[type=submit] { /* This covers the submit button for the contact form */
-	background-color: black;
+	background-color: #1F8AC0;
 	color: white;
 	font-weight: bold;
 	padding: 12px 20px;
@@ -174,7 +174,7 @@ input[type=submit] { /* This covers the submit button for the contact form */
 
 /* Hover effect for submit button */
 input[type=submit]:hover {
-	background-color: white; /* Makes the background turn white when hovered over */
+	background-color: #1F8AC0; /* Makes the background turn white when hovered over */
 	color: black; /* Makes the font turn black when hovered over */
 	font-weight: bold; /* Makes the font bold when hovered over */
 	transform: scale(1.5); /* Makes the button increase 1.5 times in size */ 
