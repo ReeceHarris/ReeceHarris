@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Your name here </title>
-		<script src="./reece-harris.js" ></script>
+		<script src="./JS/reece-harris.js" ></script>
 		<link rel="stylesheet"  href="./CSS/reece-harris.css">
 	</head>
 		  
@@ -57,32 +57,32 @@
         
 		<div class="mySlides fade">
           <div class="Slide_Number">1 / 6</div>
-            <img class="Slide_Show_Images" src="./Images and Videos/Development.jpg" >
+            <img class="Slide_Show_Images" src="./Images and Videos/Profile_Picture.jpg" >
               <div class="text">I'm available to assist you on your project!</div>
         </div>
         
 		<div class="mySlides fade">
           <div class="Slide_Number">2 / 6</div>
-            <img class="Slide_Show_Images" src="./Images and Videos/Contact.jpg" >
-              <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+            <img class="Slide_Show_Images" src="./Images and Videos/Development.jpg" >
+              <div class="text">I am a starting out full-stack software developer.</div>
         </div>
 
         <div class="mySlides fade">
           <div class="Slide_Number">3 / 6</div>
-            <img class="Slide_Show_Images" src="PICTURE">
-              <div class="text">the popular programming language Python,</div>
+            <img class="Slide_Show_Images" src="./Images and Videos/Python.jpg">
+              <div class="text">The popular programming language Python,</div>
         </div>
 
         <div class="mySlides fade">
           <div class="Slide_Number">4 / 6</div>
-            <img class="Slide_Show_Images" src="PICTURE" >
+            <img class="Slide_Show_Images" src="./Images and Videos/C.jpg" >
               <div class="text">C#, .NET Framework, ASP.NET, MVC,</div>
         </div>
 
 		<div class="mySlides fade">
 	      <div class="Slide_Number">5 / 6</div>
-			<img class="Slide_Show_Images" src="PICTURE">
-              <div class="text">back end development, databases and SQL.</div>
+			<img class="Slide_Show_Images" src="./Images and Videos/Visual_Studio.jpg">
+              <div class="text">Primarily use Visual Studio Code.</div>
 			</div>
 
 		<div class="mySlides fade">
@@ -100,14 +100,14 @@
   <br>
 
       <div>
- 
-		<span class="dot" onclick="currentSlide(1)"></span> 
-		<span class="dot" onclick="currentSlide(2)"></span> 
-		<span class="dot" onclick="currentSlide(3)"></span> 
-		<span class="dot" onclick="currentSlide(4)"></span> 
-		<span class="dot" onclick="currentSlide(5)"></span> 
-		<span class="dot" onclick="currentSlide(6)"></span> 
-
+			<center> 
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+			</center>
       </div>
     </div>
   </div>
@@ -116,13 +116,15 @@
 
 <!-- About section -->
 <div class="Row" id="About"> 
-	<div class="Column_2"> <!-- Left column -->
-		<img src="./Development.jpg" alt="Laptop">
+	<div id="Linkedin" class="Column_2"> <!-- Left column -->
+		<h1><a href="https://www.linkedin.com/in/reece-harris-0451181b7/">Linkedin</a></h1>
+		<p>My Likedin is still in its early stages but will be a good way to get background information. </p>
+		<a href="https://www.linkedin.com/in/reece-harris-0451181b7/"><img class="Custom" src="./Images and Videos/Linkedin.png" alt=""></a> 
 	</div>
 
 	<div class="Column_1"> <!-- Right column -->
 		<h1>About</h2>
-			<p>I am a software developer who loves to code! I'm still very early in my career but willing and eager to learn. <br><br>I am a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+			<p>I am a software developer who loves to code! I'm still very early in my career but willing and eager to learn. <br><br>I am a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, Python, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
 	</div>
 </div>
 
@@ -144,7 +146,7 @@
   <div id="Contact"> 
     <button onclick="openForm()" class="Pop_Up_Button"> CONTACT </button>
 	  <div class="form-popup" id="myForm">
-	    <form action="https://formspree.io/reeceharris423@gmail.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+	    <form action="https://formspree.io/f/mvovrnkw" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
 		<h1>Contact</h1>
 			<label for="name"><b>Name</b></label>
 			  <input type="text" placeholder="Type your name here" name="name" required>
@@ -165,11 +167,10 @@
 <!-- Footer section -->	
 	<footer>
 	  <p>
-	    <center>Find something to put here </center><br>
+	    <center</center><br>
       </p>
 	</footer>
 
-	<script src="JS/sample_Portfolio.js"></script>
 	
 </body>
 </html>

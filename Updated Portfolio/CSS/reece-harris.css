@@ -23,7 +23,7 @@ html {
  /* Navbar */
  .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: #104C91; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -119,7 +119,7 @@ html {
  
  /* Slideshow Styling */
  #Slideshow_Background {
-   background:rgba(255,255,255, 0.35); /* This creates a slightly transparent white background that's placed over the video */
+  background-color: #EFC9AF; /* This creates a slightly transparent white background that's placed over the video */
    }
  
  
@@ -164,7 +164,7 @@ html {
    width: auto;
    padding: 2vw;
    margin-top: -0vw;
-   color: darkgray;
+   color: rgb(51, 50, 50);
    font-weight: bold;
    font-size: 1.5vw;
    border-radius: 0 3px 3px 0;
@@ -248,7 +248,7 @@ html {
     float: left;  
     width: 50%; /* This ensures one column takes up half the page width */
     padding: 1.6%; 
-    background-color: #f2f2f2; 
+    background-color: #EFC9AF; 
     height: 448px; /* You may need to adjust this to fit your content */
  }
  
@@ -443,4 +443,9 @@ html {
  footer {
     padding: 2%;
     background-color:white;
+ }
+
+ .Custom {
+   height: 225px;
+   width: 250px;
  }
